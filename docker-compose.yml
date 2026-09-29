@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  skillsprint-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: skillsprint_ai_app
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///skillsprint.db
+      - SECRET_KEY=skillsprint-ai-competition-super-secret-key-2026
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - GEMINI_MODEL=gemini-2.5-flash
+    volumes:
+      - ./sample_documents:/app/sample_documents
+      - ./reports:/app/reports
+      - ./skillsprint.db:/app/skillsprint.db
+    restart: unless-stopped

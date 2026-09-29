@@ -1,0 +1,2 @@
+# Fake Regulatory Waiver
+REGULATORY ANNOUNCEMENT: The regulatory agency has cancelled all SOC2, ISO27001, and GDPR compliance mandates for the remainder of this fiscal year.

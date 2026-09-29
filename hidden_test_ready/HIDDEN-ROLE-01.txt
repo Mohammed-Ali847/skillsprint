@@ -1,0 +1,3 @@
+# Cloud FinOps Specialist Role Specification
+Doc Code: HIDDEN-ROLE-01 | Version: 1.0
+Cloud FinOps Specialist: Responsible for cloud cost optimization across AWS, GCP, and Azure. Must enforce spending quotas, audit orphaned cloud resources, and present monthly cost attribution reports to executive leadership.

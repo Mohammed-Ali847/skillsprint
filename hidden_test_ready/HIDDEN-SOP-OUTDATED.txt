@@ -1,0 +1,3 @@
+# Legacy Tape Backup Archival SOP (Outdated)
+Doc Code: HIDDEN-SOP-OUTDATED | Version: 0.9
+Legacy Procedure: Weekly database snapshots must be manually copied to LTO-7 physical magnetic tapes and transported via courier to iron mountain vaults. (Superseded by Automated Cloud Object Archival).
